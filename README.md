@@ -82,42 +82,42 @@ Using Google Maps SDK, an application can display geographical maps, show the de
 
 ## 🖥️ Application Screenshots
 
-The screenshots are arranged in a two-column grid. Save the six image files in a folder named `screenshots` using the exact filenames below.
+The images below are loaded directly from the screenshot files already stored in the root of this GitHub repository. No separate `screenshots` folder is required.
 
 <table>
   <tr>
     <td align="center" width="50%">
       <strong>1. Location Permission</strong><br>
-      <img src="screenshots/01-location-permission.png" alt="Location permission screen" width="240"><br>
+      <img src="https://raw.githubusercontent.com/Vishwajeetsingh22/MAD-Experiment-11-Google-Maps/main/1.permission%20to%20acces%20location.png" alt="1. Location Permission" width="260"><br>
       <sub>Permission request to access the device location.</sub>
     </td>
     <td align="center" width="50%">
       <strong>2. Normal Map View</strong><br>
-      <img src="screenshots/02-normal-view.png" alt="Normal Google Maps view" width="240"><br>
-      <sub>Standard map with roads, buildings, and landmarks.</sub>
+      <img src="https://raw.githubusercontent.com/Vishwajeetsingh22/MAD-Experiment-11-Google-Maps/main/2.Normal%20View.png" alt="2. Normal Map View" width="260"><br>
+      <sub>Standard map with roads, buildings, landmarks, and current location marker.</sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
       <strong>3. Satellite Map View</strong><br>
-      <img src="screenshots/03-satellite-view.png" alt="Satellite Google Maps view" width="240"><br>
+      <img src="https://raw.githubusercontent.com/Vishwajeetsingh22/MAD-Experiment-11-Google-Maps/main/3.satelite%20view.png" alt="3. Satellite Map View" width="260"><br>
       <sub>Satellite imagery of the geographical location.</sub>
     </td>
     <td align="center" width="50%">
       <strong>4. Terrain Map View</strong><br>
-      <img src="screenshots/04-terrain-view.png" alt="Terrain Google Maps view" width="240"><br>
+      <img src="https://raw.githubusercontent.com/Vishwajeetsingh22/MAD-Experiment-11-Google-Maps/main/4.Terrain%20view.png" alt="4. Terrain Map View" width="260"><br>
       <sub>Terrain map showing geographical features.</sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
       <strong>5. Hybrid Map View</strong><br>
-      <img src="screenshots/05-hybrid-view.png" alt="Hybrid Google Maps view" width="240"><br>
+      <img src="https://raw.githubusercontent.com/Vishwajeetsingh22/MAD-Experiment-11-Google-Maps/main/5.Hybrid%20view.png" alt="5. Hybrid Map View" width="260"><br>
       <sub>Satellite imagery with road names and labels.</sub>
     </td>
     <td align="center" width="50%">
       <strong>6. Zoom-Out Satellite View</strong><br>
-      <img src="screenshots/06-zoomout-satellite-view.png" alt="Zoomed-out satellite view" width="240"><br>
+      <img src="https://raw.githubusercontent.com/Vishwajeetsingh22/MAD-Experiment-11-Google-Maps/main/6.%20Zoomout%20Satelite%20view.png" alt="6. Zoom-Out Satellite View" width="260"><br>
       <sub>Zoomed-out satellite map showing a wider geographical area.</sub>
     </td>
   </tr>
@@ -130,37 +130,21 @@ The screenshots are arranged in a two-column grid. Save the six image files in a
 ```text
 MAD-Experiment-11-Google-Maps/
 │
+├── .idea/
 ├── app/
-│   └── src/
-│       └── main/
-│           ├── java/
-│           │   └── com/example/googlemapsapp_exp_11/
-│           │       ├── MainActivity.kt
-│           │       ├── LocationHelper.kt
-│           │       └── PlacesHelper.kt
-│           │
-│           ├── res/
-│           │   ├── drawable/
-│           │   ├── layout/
-│           │   │   └── activity_main.xml
-│           │   ├── menu/
-│           │   └── values/
-│           │
-│           └── AndroidManifest.xml
-│
-├── screenshots/
-│   ├── 01-location-permission.png
-│   ├── 02-normal-view.png
-│   ├── 03-satellite-view.png
-│   ├── 04-terrain-view.png
-│   ├── 05-hybrid-view.png
-│   └── 06-zoomout-satellite-view.png
-│
+├── gradle/
+├── 1.permission to acces location.png
+├── 2.Normal View.png
+├── 3.satelite view.png
+├── 4.Terrain view.png
+├── 5.Hybrid view.png
+├── 6. Zoomout Satelite view.png
+├── .gitignore
 ├── build.gradle.kts
-├── settings.gradle.kts
 ├── gradle.properties
 ├── gradlew
 ├── gradlew.bat
+├── settings.gradle.kts
 └── README.md
 ```
 
