@@ -88,7 +88,7 @@ The images below are loaded directly from the screenshot files already stored in
   <tr>
     <td align="center" width="50%">
       <strong>1. Location Permission</strong><br>
-      <img src="https://raw.githubusercontent.com/Vishwajeetsingh22/MAD-Experiment-11-Google-Maps/main/1.permission%20to%20acces%20location.png" alt="1. Location Permission" width="260"><br>
+      <img src= "1.permission to  acces location.png" alt="1. Location Permission" width="260"><br>
       <sub>Permission request to access the device location.</sub>
     </td>
     <td align="center" width="50%">
